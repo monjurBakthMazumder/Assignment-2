@@ -147,7 +147,7 @@ header img{
 .Online-Games-Funny-Videos-img p{
     color: var(--text-color);
     font-weight: 500;
-    margin-top: 1.5rem;
+    margin: 1.5rem 0;
 }
 /* Online Games Funny Videos end  */
 
@@ -162,6 +162,9 @@ header img{
     }
     header{
         flex-direction: column-reverse;
+    }
+    .Online-Games-Funny-Videos-img{
+        grid-template-columns: 1fr;
     }
     header img{
         width: 300px;
@@ -182,6 +185,9 @@ header img{
     }
     header{
         flex-direction: column-reverse;
+    }
+    .Online-Games-Funny-Videos-img{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 /* tablet style end */
