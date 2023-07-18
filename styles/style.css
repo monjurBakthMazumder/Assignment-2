@@ -221,6 +221,7 @@ line-height: 30px;
     grid-template-columns: repeat(5,1fr);
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .icon-box{
     display: flex;
@@ -233,6 +234,9 @@ line-height: 30px;
     padding: 10px;
     border-radius: 3rem;
     border: 2px solid var(--color-white);
+    color: var(--text-secondary-color);
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 .icon-box:hover{
     color: var(--linear);
@@ -273,6 +277,9 @@ line-height: 30px;
     .Play-Instantly-1{
         text-align: center;
     }
+    .icon{
+        grid-template-columns: repeat(3,1fr);
+    }
     
 }
 /* mobile style end */
@@ -294,6 +301,9 @@ line-height: 30px;
     }
     .Play-Instantly-1{
         text-align: center;
+    }
+    .icon{
+        grid-template-columns: repeat(3,1fr);
     }
 }
 /* tablet style end */
