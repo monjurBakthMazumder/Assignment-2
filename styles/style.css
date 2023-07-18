@@ -213,7 +213,35 @@ line-height: 30px;
     width: 300px;
 }
 /* Play Instantly style end  */
-
+/* icon style start  */
+.icon{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 120px 10%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.icon-box{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+    background-color: var(--color-white);
+    padding: 10px;
+    border-radius: 3rem;
+    border: 2px solid var(--color-white);
+}
+.icon-box:hover{
+    color: var(--linear);
+    border: 2px solid var(--linear);
+}
+.icon-box img{
+    width: 50px;
+}
+/* icon style end  */
 
 /* mobile style start */
 @media screen and (max-width: 640px) {
