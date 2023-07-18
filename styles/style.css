@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 /* common style start  */
 :root{
@@ -126,6 +127,7 @@ header img{
     color: var(--text-secondary-color);
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 .Online-Games-Funny-Videos > h1 > span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -201,6 +203,8 @@ header img{
 font-size: 1.125rem;
 font-weight: 400;
 line-height: 30px;
+width: 350px;
+margin-top: 1.5rem;
 }
 .play-img-1{
     width: 550px;
