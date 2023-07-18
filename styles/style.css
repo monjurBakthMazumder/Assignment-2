@@ -3,20 +3,26 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+/* common style start  */
 :root{
     --linear:#FF42A5;
-    --text-color: #3C354F;
+    --linear-2: #4EC5F7;
+    --text-primary-color: #3C354F;
+    --text-secondary-color: #0B0223;
+    --text-color: #534C64;
+    --color-white:#fff;
 }
 span{
     color: var(--linear);
 }
+/* common style end  */
 /* nav style start  */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 10%;
-    background-color: #FFF;
+    background-color: var(--color-white);
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-icon{
@@ -42,7 +48,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--text-primary-color);
     font-size: 1.125rem;
     font-weight: 500;
 }
@@ -55,7 +61,58 @@ nav .follow{
     padding: 1rem;
 }
 /* nav style end  */
-
+/* header style start  */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10% 0px 0;
+}
+.header-text{
+    background-image: url("../images/Group\ 14.png");
+    background-position: center;
+    background-size: contain;
+    padding: 10%;
+}
+header h2{
+    color:var(--text-secondary-color);
+        font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header h1{
+    font-size: 5.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 1.3rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header p{
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+header button{
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 3rem;
+    border: none;
+    background-color: var(--linear);
+}
+header .go{
+    background-color: var(--linear-2);
+}
+header img{
+    width: 500px;
+}
+/* header style end  */
 
 
 
@@ -66,6 +123,12 @@ nav .follow{
     nav,
     nav > ul{
         flex-direction: column;
+    }
+    header{
+        flex-direction: column-reverse;
+    }
+    header img{
+        width: 300px;
     }
     .nav-icon{
         margin-bottom: 3rem;
@@ -80,6 +143,9 @@ nav .follow{
     }
     .nav-icon{
         margin-bottom: 2.5rem;
+    }
+    header{
+        flex-direction: column-reverse;
     }
 }
 /* tablet style end */
