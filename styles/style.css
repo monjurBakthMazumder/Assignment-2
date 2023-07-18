@@ -69,7 +69,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 10% 0px 0;
+    padding:20px 10% 0 0;
 }
 .header-text{
     background-image: url("../images/Group\ 14.png");
@@ -285,7 +285,7 @@ font-weight: 600;
 }
 .foot-ul-2 a{
     color: rgba(255, 255, 255, 0.60);
-    font-size: 1REM;
+    font-size: 1rem;
     font-weight: 500;
 }
 footer p{
@@ -341,7 +341,21 @@ footer p{
     .icon{
         grid-template-columns: repeat(2,1fr);
     }
-    
+    footer{
+        padding: 120px 0px;
+    }
+    .foot-ul-1{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .social-icon{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        gap: 30px;
+    }
+    .foot-ul-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 /* mobile style end */
 
@@ -365,6 +379,19 @@ footer p{
     }
     .icon{
         grid-template-columns: repeat(3,1fr);
+        padding: 0;
+    }
+    footer{
+        padding: 120px 0px;
+    }
+    .foot-ul-1{
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }
+    .social-icon{
+        grid-template-columns: repeat(3, 1fr);
+        padding:0 30%;
+        gap: 30px;
     }
 }
 /* tablet style end */
