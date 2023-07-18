@@ -49,6 +49,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
+    cursor: pointer;
 }
 nav a{
     text-decoration: none;
