@@ -169,6 +169,7 @@ header img{
     align-items: center;
     text-align: center;
     border-radius: 16px;
+    transition: opacity 1s;
 }
 .ogfv-img i{
     font-size: 2rem;
