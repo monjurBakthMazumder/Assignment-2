@@ -113,7 +113,43 @@ header img{
     width: 500px;
 }
 /* header style end  */
-
+/* Online Games Funny Videos start  */
+.Online-Games-Funny-Videos{
+    text-align: center;
+    padding: 120px 10%;
+}
+.Online-Games-Funny-Videos h1{
+    color: var(--text-secondary-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.Online-Games-Funny-Videos > h1 > span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Online-Games-Funny-Videos > p{
+    color: var(--text-color);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.Online-Games-Funny-Videos-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+    text-align: left;
+}
+.Online-Games-Funny-Videos-img img{
+    width: 100%;
+}
+.Online-Games-Funny-Videos-img p{
+    color: var(--text-color);
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+/* Online Games Funny Videos end  */
 
 
 
