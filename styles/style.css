@@ -1,3 +1,5 @@
+/* 100% responsible website for 5 devise */
+
 *{
     padding: 0;
     margin: 0;
@@ -499,6 +501,7 @@ footer p{
         margin-top: 30px;
     }
     .play-img-2{
+    margin-top: -100px;
         width: 150px;
 
     }
