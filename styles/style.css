@@ -331,7 +331,8 @@ footer p{
     }
     header img{
         width: 250px;
-    }header h2{
+    }
+    header h2{
         font-size: 2rem;
     }
     header h1{
@@ -475,6 +476,9 @@ footer p{
     header{
         flex-direction: column-reverse;
         padding:20px;
+    }
+    header h2{
+        font-size: 2.6rem;
     }
     .Online-Games-Funny-Videos-img{
         grid-template-columns: 1fr;
