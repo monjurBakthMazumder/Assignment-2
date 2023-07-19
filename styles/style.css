@@ -321,6 +321,7 @@ footer p{
     }
     header{
         flex-direction: column-reverse;
+        padding:20px;
     }
     .Online-Games-Funny-Videos-img{
         grid-template-columns: 1fr;
@@ -385,6 +386,7 @@ footer p{
     }
     header{
         flex-direction: column-reverse;
+        padding: 20px;
     }
     .Online-Games-Funny-Videos-img{
         grid-template-columns: repeat(2,1fr);
