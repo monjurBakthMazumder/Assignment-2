@@ -315,8 +315,12 @@ footer p{
 
 /* small mobile style start */
 @media screen and (max-width: 640px) {
-    nav{
+    nav,
+    nav > ul{
         flex-direction: column;
+    }
+    .nav-icon{
+        margin-bottom: 3rem;
     }
 }
 /* small mobile style end */
@@ -326,6 +330,7 @@ footer p{
     nav > ul{
         flex-direction: column;
     }
+    
     header{
         flex-direction: column-reverse;
         padding:20px;
