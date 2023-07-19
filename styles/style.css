@@ -187,14 +187,13 @@ header img{
 /* Online Games Funny Videos end  */
 /* Play Instantly style start  */
 .Play-Instantly{
-    display: flex;
-    justify-content: space-between;
+    display: grid;grid-template-columns: repeat(2, 1fr);
     align-items: center;
     padding: 0 10%;
-    gap: 10px;
 }
 .Play-Instantly-1{
     text-align: right;
+    padding:0 18%;
 }
 .Play-Instantly h1{
     font-size: 48px;
@@ -205,8 +204,8 @@ header img{
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 30px;
-    width: 350px;
     margin-top: 1.5rem;
+
 }
 .play-img-1{
     width: 550px;
@@ -317,8 +316,7 @@ footer p{
 /* mobile style start */
 @media screen and (max-width: 640px) {
     nav,
-    nav > ul,
-    .Play-Instantly{
+    nav > ul{
         flex-direction: column;
     }
     header{
@@ -333,9 +331,15 @@ footer p{
     header img{
         width: 300px;
     }
+    .Play-Instantly{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5%;
+    }
     .play-img-1{
         width: 300px;
         margin-left: 40px;
+        margin-top: 30px;
     }
     .play-img-2{
         width: 100px;
@@ -343,7 +347,9 @@ footer p{
     }
     .Play-Instantly-1{
         text-align: center;
+        padding: 0;
     }
+    
     .icon{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -371,8 +377,7 @@ footer p{
 
 /* tablet style start */
 @media screen and (min-width: 641px) and (max-width: 990px) {
-    nav,
-    .Play-Instantly{
+    nav{
         flex-direction: column;
     }
     .nav-icon{
@@ -384,8 +389,16 @@ footer p{
     .Online-Games-Funny-Videos-img{
         grid-template-columns: repeat(2,1fr);
     }
+    .Play-Instantly{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5%;
+    }
     .Play-Instantly-1{
         text-align: center;
+    }
+    .play-img-1{
+        margin-top: 30px;
     }
     .icon{
         display: grid;
