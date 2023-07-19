@@ -566,6 +566,9 @@ footer p{
         flex-direction: column-reverse;
         padding: 20px;
     }
+    .Online-Games-Funny-Videos h1{
+        font-size: 2.5rem;
+    }
     .Online-Games-Funny-Videos-img{
         grid-template-columns: repeat(2,1fr);
     }
