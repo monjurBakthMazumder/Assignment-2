@@ -425,3 +425,8 @@ footer p{
     }
 }
 /* tablet style end */
+/* laptop style start  */
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+
+}
+/* laptop style end  */
