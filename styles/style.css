@@ -313,8 +313,13 @@ footer p{
 
 
 
-/* mobile style start */
+/* small mobile style start */
 @media screen and (max-width: 640px) {
+    
+}
+/* small mobile style end */
+/* mobile style start */
+@media screen and (min-width: 321px) and (max-width: 640px) {
     nav,
     nav > ul{
         flex-direction: column;
