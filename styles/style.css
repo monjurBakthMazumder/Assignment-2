@@ -611,6 +611,9 @@ footer p{
     header{
         padding-right:30%;
     }
+    header h2{
+        font-size: 2.8rem;
+    }
     .Play-Instantly{
         padding: 0 10% 0 5%;
     }
