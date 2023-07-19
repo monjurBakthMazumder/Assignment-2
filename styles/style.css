@@ -431,6 +431,37 @@ footer p{
     .icon-box img{
         width: 30px;
     }
+    footer{
+        padding: 120px 0px;
+    }
+    .foot-ul-1{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .social-icon{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 30%;
+        gap: 30px;
+    }
+    .foot-ul-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding:0 25%;
+        gap: 20px;
+    }   
+    .foot-ul-1 a{
+    font-size: .8rem;
+    }
+    .foot-ul-2{
+        padding: 0 5%;
+        gap: 1rem;
+    }
+    .foot-ul-2 a{
+        font-size: .8rem;
+    }
+    footer p{
+        font-size: .6rem;
+    }
 }
 /* small mobile style end */
 /* mobile style start */
