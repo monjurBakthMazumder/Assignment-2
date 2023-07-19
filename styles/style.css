@@ -81,7 +81,7 @@ header{
 }
 header h2{
     color:var(--text-secondary-color);
-        font-size: 3rem;
+    font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -322,10 +322,33 @@ footer p{
     .nav-icon{
         margin-bottom: 3rem;
     }
+    .nav-icon{
+        margin-bottom: 2rem;
+    }
+    header{
+        flex-direction: column-reverse;
+        padding:5px;
+    }
+    header img{
+        width: 250px;
+    }header h2{
+        font-size: 2rem;
+    }
+    header h1{
+        font-size: 4rem;
+    }
+    header p{
+        font-size: 1rem;
+    }
+    header button{
+        font-size: .8rem;
+        padding: 15px 30px;
+    }
 }
 /* small mobile style end */
 /* mobile style start */
 @media screen and (min-width: 321px) and (max-width: 640px) {
+    
     nav,
     nav > ul{
         flex-direction: column;
