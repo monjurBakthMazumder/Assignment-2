@@ -430,5 +430,21 @@ footer p{
     header{
         padding-right:30%;
     }
+    .Play-Instantly{
+        padding: 0 10% 0 5%;
+    }
+    .play-img-1{
+        width: 400px;
+        margin-left: 80px;
+    }
+    
+    .play-img-2{
+        position: relative;
+        margin-top: -120px;
+        width: 180px;
+    }
+    .Play-Instantly-1{
+        padding:0 5% ;
+    }
 }
 /* laptop style end  */
