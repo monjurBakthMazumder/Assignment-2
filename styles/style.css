@@ -344,6 +344,55 @@ footer p{
         font-size: .8rem;
         padding: 15px 30px;
     }
+    .Online-Games-Funny-Videos-img{
+        grid-template-columns: 1fr;
+    }
+    
+.Online-Games-Funny-Videos h1{
+    font-size: 2rem;
+}
+.Online-Games-Funny-Videos > p{
+    font-size: 1rem;
+}
+.Online-Games-Funny-Videos-img{
+    grid-template-columns: 1fr;
+}
+.ogfv-box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.Online-Games-Funny-Videos-img img{
+    width: 100%;
+}
+.ogfv-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    background:black;
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    transition: opacity 1s;
+}
+.ogfv-img i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.ogfv-box:hover .ogfv-img{
+    opacity: 70%;
+    border: 4px solid var(--linear);
+}
+.Online-Games-Funny-Videos-img p{
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
 }
 /* small mobile style end */
 /* mobile style start */
