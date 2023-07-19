@@ -537,6 +537,20 @@ footer p{
         padding:0 25%;
         gap: 20px;
     }
+    .foot-ul-1 a{
+    font-size: .8rem;
+    }
+    .foot-ul-2{
+        text-align: center;
+        padding: 0 6%;
+        gap: .1rem;
+    }
+    .foot-ul-2 a{
+        font-size: .8rem;
+    }
+    footer p{
+        font-size: .6rem;
+    }
 }
 /* mobile style end */
 
